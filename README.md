@@ -8,8 +8,10 @@ C# 8.0 introduces **nullable reference types** and **non-nullable reference type
 [more]([https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
 
 ### Where can it be useful
-The ability to declare more properties about reference types brings more typesafety and type soundness to your code. 
+
+The ability to declare more properties about reference types brings more typesafety and type soundness to your code.
 I consider this feature of high valuable to express input and output of functions, providing a more accurate information to API client, check the source example for NonNullValidation
+[upgrade your source code](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/upgrade-to-nullable-references)
 
 ## Create files and folders
 

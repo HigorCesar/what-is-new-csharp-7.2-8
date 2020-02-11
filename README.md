@@ -49,3 +49,12 @@ C# 8.0 introduces the null-coalescing assignment operator `??=`. You can use the
 
 Samples in NullCoalescingOperator.cs  
 [more](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#null-coalescing-assignment)
+
+## Default implementation in interfaces
+
+You can now add members to interfaces and provide an implementation for those members. This language feature enables API authors to add methods to an interface in later versions without breaking source or binary compatibility with existing implementations of that interface.
+It is not _that bad_ as the interface method can only be seen when using the interface type, therefore transparent to the type which implements the interface itself. The ability which strikes me to the most is the definition of static methods in interfaces.
+
+Samples in DefaultInterfaceMethods.cs  
+[more](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#default-interface-methods)
+

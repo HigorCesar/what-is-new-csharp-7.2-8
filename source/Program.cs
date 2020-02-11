@@ -7,6 +7,24 @@ namespace WhatIsNewInCSharp
     {
         static void Main(string[] args)
         {
+            //IndicesAndRanges();
+            DefaultInterfaceMethods();
+            Console.ReadKey();
+        }
+
+        static void DefaultInterfaceMethods()
+        {
+            var logger = new ConcreteLogger();
+            ILoggerOne loggerOne = logger;
+            var loggerTwo = (ILoggerTwo)logger;
+
+            loggerOne.Log();
+            loggerTwo.Log();
+            
+            ILoggerOne.LogS();
+        }
+        static void IndicesAndRanges()
+        {
             //IndicesAndRanges
             var indicesAndRanges = new IndicesAndRanges();
 
